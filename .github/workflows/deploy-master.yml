@@ -37,7 +37,7 @@ jobs:
               serving_base ${{ secrets.DOCKER_USER}}/${{secrets.MODEL_NAME}}:${{github.sha}}
 
       - name : list images
-        run: |
+        run: | 
           docker images
 
       - name: build login
