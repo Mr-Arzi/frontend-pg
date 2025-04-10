@@ -1,5 +1,5 @@
 //var url = "http://localhost:3300/api/users";
-var url = "https://restapi-mrarzi.onrender.com";
+var url = "https://restapi-mrarzi.onrender.com/api/users";
 
 function postUser(){
 	console.log(url);
